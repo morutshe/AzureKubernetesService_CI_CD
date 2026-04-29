@@ -1,31 +1,26 @@
-# Day 11/16 - Azure DevOps CICD Pipeline on Azure Kubernetes Services 🛳️ 🐳
+# Azure DevOps CICD Pipeline on Azure Kubernetes Services 
 
-## Check out the video below for Day11 👇
 
-[![Day10/16 - Azure DevOps CICD Pipeline on Azure Container Instances](https://img.youtube.com/vi/mv8qJzyZggE/sddefault.jpg)](https://youtu.be/mv8qJzyZggE)
-
+<img width="853" alt="image" src="https://github.com/morutshe/AzureKubernetesService_CI_CD/blob/main/assets/AKS.webp">
 
 ## Kubernetes Architecture
 
-<img width="820" alt="image" src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/e15fe0dc-afc0-4aec-b69f-b7e296df0b07">
+<img width="820" alt="image" src="https://github.com/morutshe/AzureKubernetesService_CI_CD/blob/main/assets/kubernetesArchitecture.png">
 
 ## Kubernetes components
 
+<img width="745" alt="image" src="https://github.com/morutshe/AzureKubernetesService_CI_CD/blob/main/assets/KubeControlManager.png">
+
+
 ### Kube APiServer
-
-<img width="746" alt="image" src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/808131a2-e8b5-4b89-af47-5f1040c64544">
-
 ### Kube Scheduler
-
-<img width="745" alt="image" src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/7e394ee3-37c9-4ade-82b0-95da0b0318ef">
-
 ### Kube Controller Manager
-
-<img width="853" alt="image" src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/4dffd765-559c-4839-8152-7f15ab753adf">
-
 ### ETCD
 
-<img width="817" alt="image" src="https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/f50887ea-28d0-40b3-968d-1e923f2177a4">
+If you dont know what the above terms means then visits this links below to get a lclear view and understanding..
+
+=> https://kubernetes.feisky.xyz/en/concepts/components
+=> https://iteritory.com/kubernetes-components-and-its-high-level-architecture/
 
 
 ## Pre-requisites
@@ -85,10 +80,12 @@ Make sure the below Azure DevOps extensions are installed and enabled in your or
 - Replace Token
 - Kubernetes extension
 
+-If you dont know how to do that go to this link on youtube for guide to follow  https://www.youtube.com/watch?v=FJ9hvW3VJHw
+
 Once the infra is ready, go to dev.azure.com --> Project --> repos 
 and import the below git repo, which has the source code and pipeline code
 
-https://github.com/piyushsachdeva/MyHealthClinic-AKS
+https://github.com/microsoft/myhealthclinic2017.git
 
 ### Build and Release Pipeline
 
