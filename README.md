@@ -12,12 +12,12 @@
 <img width="745" alt="image" src="https://github.com/morutshe/AzureKubernetesService_CI_CD/blob/main/assets/KubeControlManager.png">
 
 
-### Kube APiServer
-### Kube Scheduler
 ### Kube Controller Manager
+### Kube API Server
+### Kube Scheduler
 ### ETCD
 
-If you dont know what the above terms means then visits this links below to get a lclear view and understanding..
+If you dont know what the above terms means then visits this links below to get clear view and understanding..
 
 => https://kubernetes.feisky.xyz/en/concepts/components
 => https://iteritory.com/kubernetes-components-and-its-high-level-architecture/
