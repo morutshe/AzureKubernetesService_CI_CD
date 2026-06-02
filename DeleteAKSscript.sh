@@ -5,7 +5,7 @@
 REGION="southafricanorth"
 RGP="aks-demof-rg"
 CLUSTER_NAME="aks-demo-cluster"
-ACR_NAME="aksdemoacr"
+ACR_NAME="aksdemofacr"
 SQLSERVER="aks-demo-sqlserver"
 DB="mhcdb"
 
